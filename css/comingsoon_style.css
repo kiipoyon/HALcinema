@@ -8,11 +8,11 @@ main{
 
 /* title */
 .contents__title{
-    margin: 150px auto;
+    margin: 150px auto 100px auto;
 
     height: 125px;
 
-    border-left: solid 0.7rem #4DA7D8;
+    border-left: solid 0.7rem #E46E5C;
 }
 
 .contents__title h1 {
@@ -29,6 +29,24 @@ main{
     font-size: 35px;
 }
 /* title end */
+
+/* date */
+.date{
+    margin: 130px auto 40px 73px;
+
+    height: 125px;
+
+    border-left: solid 0.7rem #E46E5C;
+}
+
+.date h2 {
+    padding: 0;
+    margin: 25px 0 0 25px;
+    line-height: 125px;
+
+    font-size: 35px;
+}
+/* date end */
 
 /* 上映中コンテンツ */
 .col-md-6{
