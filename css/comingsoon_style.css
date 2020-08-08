@@ -19,6 +19,7 @@ main{
     padding: 0;
     margin: 0 0 0 25px;
 
+    color: #555555;
     font-size: 45px;
 }
 
@@ -26,6 +27,7 @@ main{
     padding: 0;
     margin: 25px 0 0 25px;
 
+    color: #707070;
     font-size: 35px;
 }
 /* title end */
@@ -44,6 +46,7 @@ main{
     margin: 25px 0 0 25px;
     line-height: 125px;
 
+    color: #555555;
     font-size: 35px;
 }
 /* date end */
