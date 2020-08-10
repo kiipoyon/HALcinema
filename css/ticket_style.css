@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* main */
+main{
+    width: 90%;
+    margin: 200px auto 300px auto;
+}
+/* main end */
+
+/* title */
+.contents__title{
+    margin: 150px auto 100px auto;
+
+    height: 125px;
+
+    border-left: solid 0.7rem #000000;
+}
+
+.contents__title h1 {
+    padding: 0;
+    margin: 0 0 0 25px;
+
+    color: #555555;
+    font-size: 45px;
+}
+
+.contents__title h2 {
+    padding: 0;
+    margin: 25px 0 0 25px;
+
+    color: #707070;
+    font-size: 35px;
+}
+/* title end */
+
+/* subtitle */
+.subtitle{
+    margin: 0 auto 40px 48px;
+
+    height: 125px;
+
+    border-left: solid 0.7rem #000000;
+}
+
+.subtitle h2 {
+    padding: 0;
+    margin: 25px 0 0 25px;
+    line-height: 125px;
+
+    color: #555555;
+    font-size: 35px;
+}
+/* subtitle end */
+
+/* ticket */
+.ticket{
+    margin-top: 85px;
+    padding: 30px 0 60px 0;
+    background-color: #fff;
+}
+/* ticket end */
+
+/* contents */
+.ticket_form{
+    margin: 50px 0 0 130px;
+}
+
+.ticket_form h3{
+    margin-bottom: 50px;
+    color: #707070;
+    font-size: 37px;
+}
+
+.ticket_form p{
+    margin-bottom: 80px;
+    color: #FF0000;
+}
+
+.ticket_form form div{
+    clear: both;
+}
+
+.ticket_form form div label{
+    display: table-cell;
+    float: left;
+    margin-right: 20px;
+    padding: 6px 20px;
+    color: #fff;
+    background-color: #707070;
+}
+
+.ticket_form form div input{
+    display: table-cell;
+    float: left;
+    border: 1px solid #707070;
+    padding: 4px 50px;
+}
+
+.search{
+    margin: 100px 0 0 400px;
+    padding: 10px 40px;
+    border: none;
+    color: #fff;
+    background-color: #4DA7D8;
+}
+/* contents end */
