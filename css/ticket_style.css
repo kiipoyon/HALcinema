@@ -59,6 +59,8 @@ main{
 }
 /* ticket end */
 
+
+/*** チケット照会 ***/
 /* contents */
 .ticket_form{
     margin: 50px 0 0 130px;
@@ -98,8 +100,135 @@ main{
 .search{
     margin: 100px 0 0 400px;
     padding: 10px 40px;
+    font-weight: bold;
     border: none;
     color: #fff;
     background-color: #4DA7D8;
+}
+/* contents end */
+
+
+
+
+/*** チケット照会_確認 ***/
+/* contents */
+.ticket_info{
+    margin: 50px 0 0 130px;
+}
+
+.ticket_info h3{
+    margin-bottom: 50px;
+    color: #707070;
+    font-size: 37px;
+}
+
+.ticket_info p{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 80px;
+    width: 60%;
+    font-size: 40px;
+    color: #fff;
+    background-color: #FF8B60
+}
+
+.ticket_info p span{
+    font-weight: bold;
+}
+
+
+.ticket_info div h4{
+    font-size: 37px;
+    font-weight: normal;
+}
+
+
+
+.ticket_wrap{
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* 座席選択内容 */
+.seat{
+    padding: 30px;
+    background-color: #F7F7F7;
+}
+
+.seat dl{
+    margin: 30px 0 0 10px;
+}
+
+.seat dl dt{
+    float: left;
+    clear: both;
+    margin-right: 45px;
+    text-align: center;
+    padding: 5px 0;
+    width: 10%;
+    color: #fff;
+    background-color: #555555;
+}
+
+.seat dl dd{
+    padding: 5px 0;
+}
+
+.seat dl dd.total{
+    font-weight: bold;
+}
+
+
+/* お客様情報 クレジット情報 */
+.user_info h4{
+    margin: 50px 0 0 0;
+}
+
+.user_info dl{
+    margin: 30px 0 0 10px;
+}
+
+.user_info dl dt{
+    float: left;
+    clear: both;
+    margin-right: 45px;
+    padding: 5px 0;
+    width: 15%;
+}
+
+.user_info dl dd{
+    padding: 5px 0;
+    width: 55%;
+    border-bottom: 2px dashed #777777;
+}
+
+
+/* ボタン */
+.btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 100px;
+}
+.back_btn{
+    padding: 10px 20px;
+    border: 1px solid #606060;
+    color: #606060;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.next{
+    text-align: right;
+}
+.next p{
+    color: #FF0000;
+}
+.next_btn{
+    padding: 10px 40px;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    background-color: #969696;
 }
 /* contents end */
