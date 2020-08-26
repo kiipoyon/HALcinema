@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* main */
 main{
-    width: 90%;
+    width: 70%;
     margin: 200px auto 300px auto;
 }
 /* main end */
@@ -58,6 +58,29 @@ main{
     background-color: #fff;
 }
 /* ticket end */
+
+
+
+/*** チケット照会_劇場選択 ***/
+.choice{
+    margin: 50px 0 0 130px;
+}
+
+.choice form select{
+    margin-top: 30px;
+    padding: 10px 40px;
+}
+
+.inquiry{
+    display: block;
+    margin: 50px 0 0 450px;
+    padding: 10px 40px;
+    font-weight: bold;
+    border: none;
+    color: #fff;
+    background-color: #4DA7D8;
+}
+
 
 
 /*** チケット照会 ***/
