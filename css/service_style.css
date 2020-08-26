@@ -7,7 +7,7 @@ img{
 
 /* main */
 main{
-    width: 90%;
+    width: 70%;
     margin: 200px auto 300px auto;
 }
 /* main end */
@@ -62,11 +62,11 @@ main{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    width: 85%;
+    width: 83%;
 }
 
 .service a{
-    width: 45%;
+    width: 48%;
     color: #707070;
 }
 .service a:hover{
@@ -83,6 +83,10 @@ main{
 .service_title{
     display: flex;
     justify-content: space-between;
+}
+
+.service_title h3{
+    font-size: 25px;
 }
 
 .service_title p:after{
