@@ -74,6 +74,13 @@ nav ul li.nav__solid{
     border-right: solid #707070 1px;
 }
 
+header nav ul li a{
+    color: #212529;
+}
+header nav ul li a:hover{
+    text-decoration: none;
+}
+
 header nav ul li img{
     width: 30%;
     padding: 7% 0 3% 0;
