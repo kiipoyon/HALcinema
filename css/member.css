@@ -105,7 +105,7 @@ form dl dd input[type=radio]{
 }
 
 input[type=submit]{
-    width: 150px;
+    width: 120px;
     height: 30px;
     color: #fff;
     background-color: #4DA7D8;
