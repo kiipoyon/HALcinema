@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/ticket_style.css">
     <!--load css end-->
     
-    <title>チケット照会 || HALシネマ</title>
+    <title>チケット照会_劇場選択 || HALシネマ</title>
 </head>
 <body>
 
@@ -98,27 +98,22 @@
         <div class="ticket">
 
             <div class="subtitle">
-                <h2>購入劇場</h2>
+                <h2>劇場選択</h2>
             </div>
 
-            <div class="ticket_form">
-                <h3>HALシネマ 名古屋</h3>
+            <div class="choice">
                 <p>
-                    購入の確認ができます。
-                    <br>
-                    電話番号と購入番号を入力して「検索」ボタンを押してください。
+                    チケットを購入した劇場を選択してください。
                 </p>
-                <form method="POST" action="ticket_conf.html">
-                    <div class="form-group">
-                        <label class=”form-control”>電話番号</label>
-                        <input type="number" name="tell" class=”form-control”>
-                    </div>
-                    <div class="form-group">
-                        <label class=”form-control”>購入番号</label>
-                        <input type="number" name="order_num" class=”form-control”>
-                    </div>
+                <form method="POST" action="ticket.html">
+                    <select name="theater">
+                        <option value="">--------</option>
+                        <option value="T">東京</option>
+                        <option value="N">名古屋</option>
+                        <option value="O">大阪</option>
+                    </select>
 
-                    <input type="submit" name="search" value="検索 >" class="search">
+                    <input type="submit" name="inquiry" value="照会画面へ >" class="inquiry">
                 </form>
             </div>
 
