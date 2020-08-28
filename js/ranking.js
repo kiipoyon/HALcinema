@@ -9,7 +9,7 @@ window.onload = function () {
         $('#ranking__row').append(
             '<div class="rankings ranking__' + i + '">'
             + '<div class="card mb-4 shadow-sm">'
-            + '<img src="images/ranking_' + i + '.jpg" class="card-img-top ranking__cards">'
+            + '<img src="images/thumbnail/ranking_' + i + '.png" class="card-img-top ranking__cards">'
             + '<div class="card-body ranking__cards--body">'
             + '<h5 class="card-text">' + i + '位</h5>'
             + '<h6 class="card-text"><b>映画タイトル</b></h6>'
