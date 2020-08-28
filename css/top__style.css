@@ -87,7 +87,7 @@ h6.card-text {
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 445px;
+    height: auto;
     width: 315px;
 }
 
@@ -102,7 +102,7 @@ h6.card-text {
     font-size: 60px;
     position: absolute;
     left: 15%;
-    top: 2050px;
+    top: 1960px;
     color: #737373;
     padding: 0.5rem;
 }
@@ -111,7 +111,7 @@ h6.card-text {
     font-size: 60px;
     position: absolute;
     right: 15%;
-    top: 2050px;
+    top: 1960px;
     color: #737373;
     padding: 0.5rem;
 }
