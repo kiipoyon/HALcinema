@@ -48,7 +48,7 @@ $(window).on('load', function () {
     //作品上映時間
     for (let i = 0; i < s_cnt; i++) {
         $('.movie_times').append(
-            '<div class="theater_movie">' +
+            '<a href="ticket_seat.html"><div class="theater_movie">' +
             '<p class="times time' + i + '">13:00</p>' +
             '<p class="times_end">~14:30</p>' +
             '<div class="times_ticket">' +
@@ -57,7 +57,7 @@ $(window).on('load', function () {
             '</svg></div>' +
             '<p>販売中</p>' +
             '</div>' +
-            '</div>'
+            '</div></a>'
         )
     }
 
