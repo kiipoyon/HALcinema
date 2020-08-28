@@ -146,10 +146,9 @@ main{
 }
 
 .ticket_info p{
-    margin: 0 auto;
     text-align: center;
     margin-bottom: 80px;
-    width: 60%;
+    width: 70%;
     font-size: 40px;
     color: #fff;
     background-color: #FF8B60
