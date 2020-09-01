@@ -49,5 +49,9 @@ function box_c(self){
     } else {
         $("#zaseki_bng").text(act_h);
     }
+    
+    act_k = act.length * "1800";
+    
+    $('.total').text(act_k + "円");
 
 }
