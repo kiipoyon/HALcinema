@@ -1,7 +1,7 @@
-cnt = 40;
+var z_cnt = 40;
 
 $(window).on('load', function(){
-    for (let i = 0; i < cnt; i++){
+    for (let i = 0; i < z_cnt; i++){
 
         var zaseki_i = i + 1 ;
 
@@ -11,16 +11,43 @@ $(window).on('load', function(){
             '</div>'
         );
     }
+    
+    $('#zaseki_flexbox').css('display', 'flex');
 });
 
 function box_c(self){
-    let txt = $(self).text();
-    $("input").val(txt);
+    
+    let act = $('.active');
+    if (act.length > 7){
 
-    if ($(self).hasClass('active')){
-        $(self).removeClass('active');
+        if ($(self).hasClass('active')){
+            $(self).removeClass('active');
+        }else {
+            swal("選択された座席が上限を超えています")
+        }
+    
     }else{
-        $(self).addClass('active');
+
+        if ($(self).hasClass('active')){
+            $(self).removeClass('active');
+        }else{
+            $(self).addClass('active');
+        }
+        
+    }
+           
+    act = $('.active');
+    act_h = [];
+    for (let i = 0; i < act.length; i++) {
+        act_h[i] = $(act[i]).text() + "番";
+    }
+    
+    $("#zaseki_cnt").text(act.length);
+    
+    if (act.length === 0) {
+        $('#zaseki_bng').text("※ココに選択した座席番号表示※");
+    } else {
+        $("#zaseki_bng").text(act_h);
     }
 
 }

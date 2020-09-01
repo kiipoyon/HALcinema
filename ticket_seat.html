@@ -121,9 +121,10 @@
 
                 <section class="seat_name">
                     <div class="sentaku">
-                        <h4>選択された座席： 0席　 [最大ご購入可能座席：8席]</h4>
+                        <div id="zaseki_flexbox">
+                        <h4>選択された座席： </h4><h4 id="zaseki_cnt">0</h4><h4>席　 [最大ご購入可能座席：8席]</h4></div>
                     </div>
-                    <p>※ココに選択した座席番号表示※</p>
+                    <p id="zaseki_bng">※ココに選択した座席番号表示※</p>
                 </section>
 
 
@@ -134,9 +135,6 @@
                     <section>
 
                         <div id="box"></div>
-
-                        <input type="text" value=" ">
-
 
                         <div class="zaseki_text">
                             <p>※実際の座席配置とは異なる場合があります。</p>
@@ -227,6 +225,10 @@
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/b7fcd44df6.js" crossorigin="anonymous"></script>
     <!-- fontawesome end -->
+    
+    <!-- sweetalert js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <!-- sweetalert js end -->
 
     <script src="js/pagetop.js"></script>
     <script src="js/nowshowing.js"></script>
