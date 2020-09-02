@@ -1,138 +1,172 @@
 @charset "utf-8";
- 
-.login_section{
-    width: 75%;
-    height: 140px;
-    background-color: white;
-    margin: 40px auto;
-    overflow: hidden;
+
+main {
+    width: 70%;
+    margin: 50px auto 100px auto;
 }
 
-.login_logo{
+.login_section {
+    height: 150px;
+    background-color: white;
+    margin: 50px auto 100px auto;
+    padding: 20px 20px 20px 0px;
+}
+
+.contents_box {
+    height: 150px;
+    background-color: #fff;
+    margin: 50px auto 50px auto;
+    padding: 20px 20px 20px 0px;
+}
+
+
+.contents__title {
     float: left;
-    border-left: 5px solid #EC93B6;
+    clear: both;
+    width: 60%;
     height: 100px;
-    margin: 20px 0 20px 40px;
-    padding: 1% 3%;
+    border-left: solid 0.7rem #EC93B6;
+}
+
+.contents__title h1 {
+    margin: 10px 0 0 20px;
+    color: #555555;
+    font-size: 3.5rem;
+}
+
+.contents__title h2 {
+    margin: 10px 0 0px 25px;
     color: #707070;
+    font-size: 2.5rem;
 }
 
-.login_logo h1{
-    font-size: 2.0rem;
-    font-family: "游ゴシック体";
+.contents_sub {
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.login_logo h2{
-    font-size: 1.5rem;
-    font-family: "游ゴシック体";
+.contents_sub a {
+    color: #555;
 }
 
-.login_info{
-    float: right;
-    margin: 50px 30px 0 0;
-}
-
-.login_info a{
-    padding: 20px;
-    color: #707070;
-}
-
-.login_info a:hover{
-    color: #EC93B6;
+.contents_sub a:hover {
+    text-decoration: underline;
 }
 
 
-
-.login_main{
-    width: 75%;
-    height: 900px;
-    background-color: white;
-    margin: 20px auto 60px auto;
-    color: #707070;
+.ticket {
+    padding: 10px 50px 60px 50px;
+    background-color: #fff;
+    
 }
 
-.login_main h3{
-    padding: 20px 0 10px 30px;
-    font-size: 1.5rem;
+
+/* 会員ログイン */
+.login_area {
+    margin: 40px 0;
+    width: 45%;
 }
 
-.login_sec{
-    font-size: 0.8rem;
-    padding-left: 30px;
+.login_area h3 {
+    font-size: 2.8rem;
 }
 
-.black_back{
-    width: 90%;
-    height: 40px;
-    background-color: #555555;
-    color: #fff;
-    margin: 0 auto;
+.login_area .form_area {
+    width: 100%;
+    padding: 30px 0 10px 40px;
 }
 
-.black_back p{
-    font-size: 0.8rem;
-    padding: 10px 0 0 10px;
+.login_area .form_area a {
+    color: #838383;
+    display: block;
+    text-align: right;
+    padding-top: 10px;
+    font-size: 1.4rem;
 }
 
-.login_text{
-    width: 88%;
-    margin: 0 auto;
-}
-
-.login_text p{
-    font-size: 0.8rem;
-}
-
-.login_text input{
-    margin-bottom: 20px;
-    font-size: 0.8rem;
+input[type="email"],
+input[type="password"] {
+    width: 100%;
     padding: 10px;
 }
 
-.login_text #submit_login{
-    margin: 10px 0 30px 120px;
-    padding: 10px 30px;
-    background-color: #EC93B6;
-    border: none;
+.login_area .login_btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* 一般の方 */
+.ippan_area {
+    margin: 70px 0;
+    width: 100%;
+    padding-top: 50px;
+    border-top: 1px dotted #707070;
+}
+
+.ippan_area h3 {
+    font-size: 2.8rem;
+}
+
+.ippan_area .ippan_sec {
+    margin: 40px;
+}
+
+.ippan_area .ippan_sec ul {
+    margin-top: 30px;
+}
+
+.ippan_area .ippan_sec ul li {
+    padding: 3px 0;
+}
+
+.ippan_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 60px 120px;
+}
+
+.no-member_btn {
+    padding: 10px 40px;
     color: #fff;
-}
-
-hr{
-    width: 88%;
-    margin: 10px auto 40px;
-}
-
-.e-mail{
-    margin-top: 20px;
-}
-
-.pass_login{
-    width: 88%;
-    margin: 0 auto 30px;
-}
-
-#sinki_submit{
-    padding: 10px 70px;
-    background-color: #fff;
-    color: #104880;
-}
-
-#sec{
-    font-size: 0.8rem;
-    width: 88%;
-    margin: 10px auto 20px;
-}
-
-.login_main ul{
-    width: 85%;
-    margin: 0 auto 30px;
-    font-size: 0.8rem;
-}
-
-#submit_sinki{
-    margin: 10px 0 30px 185px;
-    padding: 10px 30px;
-    background-color: #EC93B6;
     border: none;
+    font-weight: bold;
+    background-color: #898989;
+    font-size: 1.6rem;
+}
+
+.no-member_btn:hover {
+    opacity: 0.7;
+}
+
+
+
+
+/* ボタン */
+.btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 100px;
+}
+
+
+.next {
+    text-align: right;
+}
+
+.next_btn {
+    padding: 10px 40px;
+    border: none;
+    font-weight: bold;
     color: #fff;
+    background-color: #4da7d8;
+    font-size: 1.6rem;
+}
+
+.next_btn:hover {
+    opacity: 0.7;
 }
