@@ -12,7 +12,7 @@ main {
 .contents_box {
     height: 150px;
     background-color: #fff;
-    margin: 50px auto 100px auto;
+    margin: 50px auto 50px auto;
     padding: 20px 20px 20px 0px;
 }
 
@@ -21,17 +21,17 @@ main {
     float: left;
     width: 60%;
     height: 100px;
-    border-left: solid 0.7rem #000000;
+    border-left: solid 0.7rem #77be74;
 }
 
 .contents__title h1 {
-    margin: 0 0 0 25px;
+    margin: 10px 0 0 20px;
     color: #555555;
     font-size: 3.5rem;
 }
 
 .contents__title h2 {
-    margin: 25px 0 0 25px;
+    margin: 10px 0 0 25px;
     color: #707070;
     font-size: 2.5rem;
 }
@@ -46,7 +46,7 @@ main {
 .contents_sub li {}
 
 .contents_sub a {
-    color: #000;
+    color: #555;
 }
 
 .contents_sub a:hover {
@@ -60,7 +60,7 @@ main {
 .subtitle {
     margin: 0 auto 40px 48px;
     height: 70px;
-    border-left: solid 0.7rem #000000;
+    border-left: solid 0.7rem #77be74;
 }
 
 .subtitle h2 {
@@ -306,7 +306,7 @@ main {
 .subtitle_kiyaku {
     margin: 0 auto 40px 0px;
     height: 70px;
-    border-left: solid 0.7rem #000000;
+    border-left: solid 0.7rem #77be74;
 }
 
 .subtitle_kiyaku h2 {
