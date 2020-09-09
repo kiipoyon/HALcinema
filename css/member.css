@@ -36,7 +36,7 @@ main{
 }
 /* title end--------------------------------------------- */
 
-/* 会員登録 */
+/* 会員登録----------------------------------------------- */
 section{
     background-color: #fff;
     margin: auto;    
@@ -100,15 +100,22 @@ form dl dd input[type=text]{
     border:solid 2px #bbbbbb;
 }
 
+.day{
+    border: solid 2px #bbb;
+}
+
+/* 性別 */
+form dl dd input[type=radio]{
+    margin-left: 30px;
+}
+
+/* 電話 */
 form dl dd input[type=tel]{
     width: 400px;
     border:solid 2px #bbbbbb;
 }
 
-form dl dd input[type=radio]{
-    margin-left: 30px;
-}
-
+/* 送信ボタン */
 input[type=submit]{
     width: 120px;
     height: 30px;
