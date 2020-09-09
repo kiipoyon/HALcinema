@@ -273,6 +273,7 @@ footer div#copyright {
     background-color: #737373;
 
     border-radius: 5px;
+    cursor: pointer;
 }
 
 #page__top div:hover {
