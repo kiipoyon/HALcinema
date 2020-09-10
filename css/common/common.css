@@ -276,6 +276,12 @@ footer div#copyright {
     cursor: pointer;
 }
 
+#page__top p{
+    position: fixed;
+    bottom: -50px;
+    right: 70px;
+}
+
 #page__top div:hover {
     background: #aaa;
 }
