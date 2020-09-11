@@ -1,77 +1,113 @@
 @charset "utf-8";
+
 /* main */
-main{
+main {
     width: 70%;
-    margin: 200px auto 300px auto;
+    margin: 50px auto 100px auto;
 }
+
 /* main end */
 
 /* title */
-.contents__title{
-    margin: 150px auto 100px auto;
+.contents_box {
+    height: 150px;
+    background-color: #fff;
+    margin: 50px auto 50px auto;
+    padding: 20px 20px 20px 0px;
+}
 
-    height: 125px;
-
-    border-left: solid 0.7rem #000000;
+.contents__title {
+    float: left;
+    width: 60%;
+    height: 100px;
+    border-left: solid 0.7rem #77be74;
 }
 
 .contents__title h1 {
-    padding: 0;
-    margin: 0 0 0 25px;
-
+    margin: 10px 0 0 20px;
     color: #555555;
-    font-size: 45px;
+    font-size: 3.5rem;
 }
 
 .contents__title h2 {
-    padding: 0;
-    margin: 25px 0 0 25px;
-
+    margin: 10px 0 0px 25px;
     color: #707070;
-    font-size: 35px;
+    font-size: 2.5rem;
 }
+
+.contents_sub {
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contents_sub a {
+    color: #555;
+}
+
+.contents_sub a:hover {
+    text-decoration: underline;
+}
+
 /* title end */
 
 /* subtitle */
-.subtitle{
-    margin: 0 auto 40px 48px;
-
-    height: 125px;
-
-    border-left: solid 0.7rem #000000;
+.sub_title {
+    width: 90%;
+    margin: 10px auto 30px auto;
+    height: 55px;
+    background-color: #77be74;
 }
 
-.subtitle h2 {
+.sub_title h2 {
     padding: 0;
     margin: 25px 0 0 25px;
-    line-height: 125px;
-
-    color: #555555;
-    font-size: 35px;
+    line-height: 55px;
+    color: #fff;
+    font-size: 2.5rem;
 }
+
+.sub_title_kakunin {
+    width: 90%;
+    margin: 10px auto 30px auto;
+    height: 55px;
+}
+
+.sub_title_kakunin h2 {
+    padding: 0;
+    margin: 25px 0 0 25px;
+    line-height: 55px;
+    font-size: 2.5rem;
+}
+
 /* subtitle end */
 
 /* ticket */
-.ticket{
-    margin-top: 85px;
+.ticket {
     padding: 30px 0 60px 0;
     background-color: #fff;
 }
+
 /* ticket end */
 
 
 
 /*** チケット照会_劇場選択 ***/
-.choice{
+.choice {
     margin: 50px 0 0 130px;
 }
 
-.choice form select{
+.choice p {
+    font-size: 1.8rem;
+}
+
+.choice form select {
     margin-top: 30px;
     padding: 10px 40px;
 }
 
-.inquiry{
+.inquiry {
     display: block;
     margin: 50px 0 0 450px;
     padding: 10px 40px;
@@ -85,26 +121,26 @@ main{
 
 /*** チケット照会 ***/
 /* contents */
-.ticket_form{
+.ticket_form {
     margin: 50px 0 0 130px;
 }
 
-.ticket_form h3{
+.ticket_form h3 {
     margin-bottom: 50px;
     color: #707070;
-    font-size: 37px;
+    font-size: 3.7rem;
 }
 
-.ticket_form p{
+.ticket_form p {
     margin-bottom: 80px;
     color: #FF0000;
 }
 
-.ticket_form form div{
+.ticket_form form div {
     clear: both;
 }
 
-.ticket_form form div label{
+.ticket_form form div label {
     display: table-cell;
     float: left;
     margin-right: 20px;
@@ -113,14 +149,14 @@ main{
     background-color: #707070;
 }
 
-.ticket_form form div input{
+.ticket_form form div input {
     display: table-cell;
     float: left;
     border: 1px solid #707070;
     padding: 4px 50px;
 }
 
-.search{
+.search {
     margin: 100px 0 0 400px;
     padding: 10px 40px;
     font-weight: bold;
@@ -128,6 +164,7 @@ main{
     color: #fff;
     background-color: #4DA7D8;
 }
+
 /* contents end */
 
 
@@ -135,53 +172,55 @@ main{
 
 /*** チケット照会_確認 ***/
 /* contents */
-.ticket_info{
+.ticket_info {
     margin: 50px 0 0 130px;
 }
 
-.ticket_info h3{
+.ticket_info h3 {
     margin-bottom: 50px;
     color: #707070;
-    font-size: 37px;
+    font-size: 3.7rem;
 }
 
-.ticket_info p{
+.ticket_info p {
     text-align: center;
     margin-bottom: 80px;
-    width: 70%;
-    font-size: 40px;
+    width: 40%;
+    font-size: 2.8rem;
+    padding: 10px;
+    letter-spacing: 0.2rem;
     color: #fff;
     background-color: #FF8B60
 }
 
-.ticket_info p span{
+.ticket_info p span {
     font-weight: bold;
 }
 
 
-.ticket_info div h4{
+.ticket_info div h4 {
     font-size: 37px;
     font-weight: normal;
 }
 
 
 
-.ticket_wrap{
+.ticket_wrap {
     margin: 0 auto;
     width: 90%;
 }
 
 /* 座席選択内容 */
-.seat{
+.seat {
     padding: 30px;
     background-color: #F7F7F7;
 }
 
-.seat dl{
+.seat dl {
     margin: 30px 0 0 10px;
 }
 
-.seat dl dt{
+.seat dl dt {
     float: left;
     clear: both;
     margin-right: 45px;
@@ -192,25 +231,26 @@ main{
     background-color: #555555;
 }
 
-.seat dl dd{
+.seat dl dd {
     padding: 5px 0;
 }
 
-.seat dl dd.total{
+.seat dl dd.total {
     font-weight: bold;
 }
 
 
 /* お客様情報 クレジット情報 */
-.user_info h4{
+.user_info h4 {
+    font-size: 2.5rem;
     margin: 50px 0 0 0;
 }
 
-.user_info dl{
+.user_info dl {
     margin: 30px 0 0 10px;
 }
 
-.user_info dl dt{
+.user_info dl dt {
     float: left;
     clear: both;
     margin-right: 45px;
@@ -218,7 +258,7 @@ main{
     width: 15%;
 }
 
-.user_info dl dd{
+.user_info dl dd {
     padding: 5px 0;
     width: 55%;
     border-bottom: 2px dashed #777777;
@@ -226,31 +266,36 @@ main{
 
 
 /* ボタン */
-.btn{
+.btn {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     margin-top: 100px;
 }
-.back_btn{
+
+.back_btn {
     padding: 10px 20px;
     border: 1px solid #606060;
     color: #606060;
     font-weight: bold;
     background-color: #fff;
+    font-size: 1.6rem;
 }
 
-.next{
+.next {
     text-align: right;
 }
-.next p{
+
+.next p {
     color: #FF0000;
 }
-.next_btn{
+
+.next_btn {
     padding: 10px 40px;
     border: none;
     font-weight: bold;
     color: #fff;
     background-color: #969696;
 }
+
 /* contents end */
