@@ -126,13 +126,16 @@ h6.card-text {
     width: 90%;
     margin: 0 auto;
 }
-
-/* campaigns album */
-.campaigns__album {
-    max-width: 25%;
+#campaigns__row li{
+    margin: 0 auto;
+    padding: 5px 0;
 }
 
-/* campaigns album end */
+#campaigns__row li a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
 
 /* news */
 #news li{
