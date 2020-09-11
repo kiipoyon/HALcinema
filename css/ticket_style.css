@@ -72,6 +72,7 @@ main {
     width: 90%;
     margin: 10px auto 30px auto;
     height: 55px;
+    border-left: solid 0.7rem #77be74;
 }
 
 .sub_title_kakunin h2 {
