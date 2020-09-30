@@ -1,132 +1,222 @@
-main{
+main {
     width: 70%;
     margin: 0 auto 100px auto;
 }
 
 /* title------------------------------------------ */
-#title_div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.contents_box {
+    height: 150px;
     background-color: #fff;
-    height: 100px;
-    margin: 100px auto 100px auto;
+    margin: 50px auto 50px auto;
+    padding: 20px 20px 20px 0px;
 }
 
-.contents_title{
-    width: 80%;
-    margin: auto;
+
+.contents__title {
+    float: left;
+    clear: both;
+    width: 60%;
+    height: 100px;
     border-left: solid 0.7rem #EC93B6;
 }
 
-.contents_title h1 {
-    padding: 0;
-    margin: 0 0 0 25px;
-
+.contents__title h1 {
+    margin: 10px 0 0 20px;
     color: #555555;
-    font-size: 35px;
+    font-size: 3.5rem;
 }
 
-.contents_title h2 {
-    padding: 0;
-    margin: 0 0 0 25px;
-
+.contents__title h2 {
+    margin: 10px 0 0px 25px;
     color: #707070;
-    font-size: 25px;
+    font-size: 2.5rem;
 }
+
+.contents_sub {
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contents_sub a {
+    color: #555;
+}
+
+.contents_sub a:hover {
+    text-decoration: underline;
+}
+
 /* title end--------------------------------------------- */
 
 /* 会員登録----------------------------------------------- */
-section{
+article {
     background-color: #fff;
-    margin: auto;    
 }
 
-form{
-    width: 80%;
+section {
+    width: 100%;
+}
+
+form {
+    width: 90%;
     margin: auto;
     padding-top: 3.0rem;
     padding-bottom: 3.0rem;
 }
 
-.member_title{
-    margin-bottom: 50px;
-    border-left: #EC93B6 solid 0.7rem;
+.member_title {
+    margin: 40px 0;
 }
 
-.member_title h1 {
-    padding: 0;
-    margin: 0 0 0 25px;
-
-    color: #555555;
-    font-size: 25px;
+.member_title h3 {
+    font-size: 2.8rem;
 }
 
-.member_title h2 {
-    padding: 0;
-    margin: 0 0 0 25px;
 
-    color: #707070;
-    font-size: 15px;
-}
 
-#tyuui{
+#tyuui {
     color: red;
-    margin-bottom: 20px;
+    margin: -10px 0 40px 50px;
 }
 
-form dl h3{
-    padding: 50px 0;
-    font-size: 2.5rem;
+span {
+    color: red;
 }
 
-form dl dt{
-    width: 350px;
-    padding: 10px 0;
+dl {
+    width: 100%;
+    margin-left: 50px;
+}
+
+dl dt {
+    width: 30%;
+    padding: 24px 0;
     float: left;
     clear: both;
 }
 
-span{
-    color: red;
+dl dd {
+    width: 70%;
+    padding: 20px 0;
+    float: left;
+
+
 }
 
-form dl dd{
-    padding: 15px 0;
+dl,
+dl>dt,
+dl>dd {
+    box-sizing: border-box;
 }
 
-form dl dd input[type=text]{
-    width: 400px;
-    border:solid 2px #bbbbbb;
+
+
+label {}
+
+
+
+
+.contents_gap {
+    clear: both;
+    padding-top: 50px;
 }
 
-.day{
-    border: solid 2px #bbb;
+
+.input_text {
+    width: 60%;
+    padding: 5px 10px;
 }
+
+input[type="tel"],
+input[type="email"] {
+    width: 60%;
+    padding: 5px 10px;
+}
+
+select {
+    padding: 5px;
+}
+
 
 /* 性別 */
-form dl dd input[type=radio]{
+#gen_02 {
     margin-left: 30px;
 }
 
-/* 電話 */
-form dl dd input[type=tel]{
-    width: 400px;
-    border:solid 2px #bbbbbb;
+#gen_03 {
+    margin-left: 30px;
 }
 
-/* 送信ボタン */
-input[type=submit]{
-    width: 120px;
-    height: 30px;
-    color: #fff;
-    background-color: #4DA7D8;
+
+
+/* カード情報入力 */
+.num_area_text {
+    margin: 20px 0 20px 50px;
+}
+
+.info_p_01 {
+    line-height: 1.7;
+}
+
+.num_text {
+    width: 10%;
+    padding: 5px;
+    text-align: center;
+}
+
+.card_img img {
+    width: 15%;
+}
+
+.name_text {
+    width: 20%;
+    padding: 5px 10px;
+}
+
+.month_text {
+    width: 8%;
+    padding: 5px;
+    text-align: center;
+}
+
+select {
+    height: 38px;
+
+}
+
+.code_text {
+    width: 10%;
+    padding: 5px;
+    text-align: center;
+}
+
+.red_text {
+    /* color: red; */
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+/* ボタン */
+.btn {
+    width: 100%;
+    margin: 80px 0;
+}
+
+.next_btn {
+    padding: 10px 40px;
     border: none;
-    text-align: center;
-    vertical-align: middle;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4da7d8;
+    font-size: 1.6rem;
 }
 
-#b-submit{
-    margin-top: 50px;
-    text-align: center;
+.next_btn:hover {
+    opacity: 0.7;
 }
