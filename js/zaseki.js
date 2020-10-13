@@ -23,7 +23,7 @@ function box_c(self){
         if ($(self).hasClass('active')){
             $(self).removeClass('active');
         }else {
-            swal("選択された座席が上限を超えています")
+            swal("選択された座席が上限を超えています");
         }
     
     }else{
