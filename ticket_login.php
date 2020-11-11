@@ -63,7 +63,7 @@
         <article class="ticket">
 
             <div class="subtitle">
-                <h2>会員ログイン<?php echo $_POST["zaseki_inp"]; ?></h2>
+                <h2>会員ログイン</h2>
             </div>
 
             <section class="ticket_flow">
@@ -98,7 +98,7 @@
                         <dt>座席・券種</dt>
                         <dd>A-001[一般:¥1,800]、A-002[一般:¥1,800]</dd>
                         <dt>合計金額</dt>
-                        <dd class="total">3,600円</dd>
+                        <dd class="total"><?php echo $_POST["zaseki_inp"]; ?></dd>
                     </dl>
                 </section>
 
